@@ -1,0 +1,33 @@
+/*************************************** custom defaults */
+@import url('https://fonts.googleapis.com/css2?family=Arima&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: default;
+  list-style: none;
+  color: #343434;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Arima', cursive, Arial, Helvetica, sans-serif;
+  background-color: #f5fffa;
+}
+
+/*************************************** title */
+#mainTitle {
+  display: grid;
+}
+
+/*************************************** grid */
+.grid-container {
+  background-color: #354230;
+  height: 20rem;
+  width: 18rem;
+  display: grid;
+}
