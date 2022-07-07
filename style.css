@@ -59,7 +59,7 @@ body {
   row-gap: 0.1rem;
   border: solid 0.2rem #354230;
   height: 20rem;
-  width: 20rem;
+  width: 18.5rem;
   background-color: #fada5e;
 }
 
@@ -74,8 +74,9 @@ body {
 /*************************************** footer */
 #footer {
   font-size: 1.5rem;
+  font-weight: 900;
   text-align: center;
-  background-color: #5e82fa50;
+  background-color: #ea192a71;
   padding: 3rem 0 4rem;
   position: absolute;
   width: 100%;
