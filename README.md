@@ -1,1 +1,1 @@
-# checkers_board
+# Checkers Board
