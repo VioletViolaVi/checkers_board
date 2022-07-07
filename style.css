@@ -48,9 +48,18 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  column-gap: 1rem;
-  row-gap: 2rem;
+  column-gap: 0.1rem;
+  row-gap: 0.1rem;
   border: solid 0.2rem #354230;
   height: 20rem;
-  width: 18rem;
+  width: 20rem;
+  background-color: #fada5e;
+}
+
+.grid-container div:nth-child(odd) {
+  background-color: #1a1110;
+}
+
+.grid-container div:nth-child(even) {
+  background-color: #ed2939;
 }
