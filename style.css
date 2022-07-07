@@ -17,6 +17,8 @@ a {
 body {
   font-family: 'Arima', cursive, Arial, Helvetica, sans-serif;
   background-color: #f5fffa;
+  position: relative; /* for footer */
+  min-height: 100vh; /* for footer */
 }
 
 /*************************************** title */
@@ -29,6 +31,11 @@ body {
 #mainTitle h1 {
   font-size: 2.5rem;
   font-weight: 900;
+}
+
+/*************************************** <main></main> */
+#contentWrap {
+  padding-bottom: 2.5rem; /* for footer */
 }
 
 /*************************************** grid */
@@ -62,4 +69,16 @@ body {
 
 .grid-container div:nth-child(even) {
   background-color: #ed2939;
+}
+
+/*************************************** footer */
+#footer {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #5e82fa50;
+  padding: 3rem 0 4rem;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 2.5rem;
 }
