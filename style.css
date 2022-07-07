@@ -38,16 +38,17 @@ body {
   padding-bottom: 2.5rem; /* for footer */
 }
 
-/*************************************** grid */
-#gridSection {
+/*************************************** css grid */
+#cssGrid {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto auto;
   justify-content: center;
   justify-items: center;
+  margin-bottom: 4rem;
 }
 
-#gridSection h2 {
+#cssGrid h2 {
   font-size: 2rem;
 }
 
@@ -69,6 +70,22 @@ body {
 
 .grid-container div:nth-child(even) {
   background-color: #ed2939;
+}
+
+/*************************************** css flex */
+#cssFlex {
+  display: flex;
+}
+
+#cssFlex h2 {
+  font-size: 2rem;
+}
+
+#flexContainer {
+  border: solid 0.2rem #354230;
+  height: 20rem;
+  width: 18.5rem;
+  background-color: #fada5e;
 }
 
 /*************************************** footer */
